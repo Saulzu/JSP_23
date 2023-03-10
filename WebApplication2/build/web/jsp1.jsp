@@ -17,6 +17,7 @@
         <div class="container">
             <h1 class="text-info">Hello World!</h1>
         </div>
+        
         <div class="container">
             <div class="card">
                 <div class="card-body">
@@ -42,6 +43,130 @@
                 %>
                 <div class="col">
                     <h1 class="text-success">El valor es <%= x %></h1>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row align-items-start">
+                <%
+                    int y = (int)((Math.random() * 100 )) ;
+                    if( x < 50)
+                    {
+                %>
+                <div class="col">
+                    <h1 class="text-danger">Es menor a 50</h1>
+                </div>
+                <%
+                    }
+                    else
+                    {
+                %>
+                <div class="col">
+                    <h1 class="text-danger">Es mayor o igual a 50</h1>
+                </div>
+                <%
+                    }
+                %>
+                <div class="col">
+                    <h1 class="text-success">El valor es <%= y %></h1>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row align-items-start">
+                <%
+                    int z = (int)((Math.random() * 100 )) ;
+                    if( x < 50)
+                    {
+                %>
+                <div class="col">
+                    <h1 class="text-danger">Es menor a 50</h1>
+                </div>
+                <%
+                    }
+                    else
+                    {
+                %>
+                <div class="col">
+                    <h1 class="text-danger">Es mayor o igual a 50</h1>
+                </div>
+                <%
+                    }
+                %>
+                <div class="col">
+                    <h1 class="text-success">El valor es <%= z %></h1>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row align-items-start">
+                <%
+                    int w = (int)((Math.random() * 100 )) ;
+                    if( x < 50)
+                    {
+                %>
+                <div class="col">
+                    <h1 class="text-danger">Es menor a 50</h1>
+                </div>
+                <%
+                    }
+                    else
+                    {
+                %>
+                <div class="col">
+                    <h1 class="text-danger">Es mayor o igual a 50</h1>
+                </div>
+                <%
+                    }
+                %>
+                <div class="col">
+                    <h1 class="text-success">El valor es <%= w %></h1>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row align-items-start">
+                <%
+                    int s = (int)((Math.random() * 100 )) ;
+                    if( x < 50)
+                    {
+                %>
+                <div class="col">
+                    <h1 class="text-danger">Es menor a 50</h1>
+                </div>
+                <%
+                    }
+                    else
+                    {
+                %>
+                <div class="col">
+                    <h1 class="text-danger">Es mayor o igual a 50</h1>
+                </div>
+                <%
+                    }
+                %>
+                <div class="col">
+                    <h1 class="text-success">El valor es <%= s %></h1>
                 </div>
                     </div>
                 </div>
